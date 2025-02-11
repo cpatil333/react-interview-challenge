@@ -1,0 +1,44 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: white;
+  color: black;
+}
+.faq-box {
+  background-color: gray;
+  margin: 10px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(0, 255, 255);
+}
+.que {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  font-size: 20px;
+  cursor: pointer;
+}
+button {
+  height: 40px;
+  width: 40px;
+  background-color: grey;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: purple;
+}
+.ans {
+  margin: 15px 0 5px 50px;
+  color: rgb(221, 214, 12);
+}
+.arrow{
+  transform: rotate(90deg);
+}

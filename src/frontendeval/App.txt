@@ -1,0 +1,48 @@
+import Navbar from "./components/NestedRoutes/Navbar";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MultiStepForm from "./frontendeval/MultiStepForm/MultiStepForm";
+import ImageCarousel from "./frontendeval/ImageCarousel/ImageCarousel";
+// import Home from "./components/NestedRoutes/Home";
+// import About from "./components/NestedRoutes/About";
+// import Classes from "./components/NestedRoutes/Classes";
+// import Aboutme from "./components/NestedRoutes/Aboutme";
+// import Technical from "./components/NestedRoutes/Technical";
+// import NonTechnical from "./components/NestedRoutes/NonTechnical";
+// import UseStateComponent from "./components/useState/UseStateComponent";
+// import UseReducerComponent from "./components/useReducer/UseReducerComponent";
+// import CountdownTimer from "./frontendeval/CountdownTimer/CountdownTimer";
+// import FAQComponent from "./frontendeval/FAQComponent/FAQComponent";
+// import EMICalculator from "./frontendeval/EMICalculator/EMICalculator";
+// import ModalOverlay from "./frontendeval/CustomModalOverlay/ModalOverlay";
+// import UndoableCounter from "./frontendeval/UndoableCounter/UndoableCounter";
+// import ShoppingList from "./frontendeval/ShoppingListAutoSuggest/ShoppingList";
+
+function App() {
+  return (
+    <>
+      {/* <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<About />}>
+            <Route index element={<Aboutme />} />
+            <Route path="/about/technical" element={<Technical />} />
+            <Route path="/about/non-technical" element={<NonTechnical />} />
+          </Route>
+          <Route path="/classes" element={<Classes />} />
+        </Routes>
+      </Router> */}
+      {/* <CountdownTimer /> */}
+      {/* <FAQComponent /> */}
+      {/* <EMICalculator/> */}
+      {/* <ModalOverlay /> */}
+      {/* <UndoableCounter /> */}
+      {/* <ShoppingList /> */}
+      {/* <MultiStepForm /> */}
+      <ImageCarousel/>
+    </>
+  );
+}
+
+export default App;
