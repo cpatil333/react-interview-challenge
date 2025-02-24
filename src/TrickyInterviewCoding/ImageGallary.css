@@ -1,0 +1,52 @@
+.gallary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.imagecontainer {
+  display: flex;
+}
+.images {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.model-container {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.imagesModel {
+  width: 400px;
+  height: 400px;
+  max-width: 90vh;
+  max-height: 90vh;
+}
+.closeButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
